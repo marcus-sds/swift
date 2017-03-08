@@ -3,7 +3,8 @@
 + Controller vm or host is needed to manage
 + Controller needs pssh (download tar and install)
 + Controller distributes the source, config and ring file
-+ Controller gather the log
++ Controller gathers the log
++ It's using memcache so if you want to use keystone, some config and package list should be changed.
 
 * stor - file contains storage node
 * proxy - file contains front node
