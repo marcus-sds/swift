@@ -1,0 +1,3 @@
+*/10 * * * * su - root -c "cd /app/util/swift; bash ./swift-tuning.sh"
+
+1 * * * * su - root -c "cd /app/util/swift;bash ./removelog.sh"
