@@ -5,10 +5,9 @@
 + Controller distributes the source, config and ring file
 + Controller gathers the log
 + It's using memcache so if you want to use keystone, some config and package list should be changed.
-
-* stor - file contains storage node
-* proxy - file contains front node
-* node - file contains storage and proxy node info
++ stor - file contains storage node
++ proxy - file contains front node
++ node - file contains storage and proxy node info
 
 ### common setup for all node
 + yum clean all
