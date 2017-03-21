@@ -1,4 +1,4 @@
-### definition
+### Definition
 + OS is centos 7
 + Controller vm or host is needed to manage
 + Controller needs pssh (download tar and install)
@@ -72,3 +72,11 @@
 ### systemctl
 + pssh -iA -h node systemctl stop NetworkManager.service
 + pssh -iA -h node systemctl disable NetworkManager.service
+
+### analyze object response time
+To check the object get/put response time, first check the procy log and find the transaction id <br>
+and check the object log with transaction id.
+
+If you already created centralized syslog server, you can just grep the transaction id at syslog server<br>
+https://github.com/marcus-sds/syslog-ng
+To enable the syslog to remote, just check previous swift "logging section". 
