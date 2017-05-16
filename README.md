@@ -80,3 +80,6 @@ and check the object log with transaction id.
 If you already created centralized syslog server, you can just grep the transaction id at syslog server<br>
 https://github.com/marcus-sds/syslog-ng
 To enable the syslog to remote, just check previous swift "logging section". 
+
+### quota
+https://docs.openstack.org/kilo/config-reference/content/object-storage-account-quotas.html
